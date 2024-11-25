@@ -4,16 +4,16 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #5b5b5b;
+    background-color: #02230f;
     color: white;
     font-family:  Arial;
-    border: 9px solid rgba(245, 245, 245, 0.542);
+    border: 9px solid #023e2a;
 }
 
 header {
     
     
-    background-image: linear-gradient(to right, #5b5b5b, #faf8f65a);
+    background-image: linear-gradient(to right, rgba(23, 45, 23, 0.955), rgb(19, 94, 19));
       
     padding: 1rem 2rem;
     margin-bottom: 2rem;
@@ -53,7 +53,7 @@ header {
     margin-bottom: 1rem;
     padding:  1rem;
     background-color: rgba(236, 223, 223, 0.099);
-    border: 3px solid rgba(56, 53, 53, 0.379);
+    border: 3px solid #021d14;
 }
 
 .category-title {
@@ -120,7 +120,7 @@ header {
     position: absolute;
     top: 5px;
     right: 5px;
-    background-color: #efeae4;
+    background-color: #006241;
     padding: 2px 4px;
     border-radius: 3px;
     font-size: 0.8rem;
@@ -130,7 +130,7 @@ a .movie-title{
    color: white;
 }
 a .rating{
-    color: black;
+    color: white;
 }
 .titletop{
     margin-top: 20px;
