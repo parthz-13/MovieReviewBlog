@@ -20,6 +20,7 @@ header {
     text-align: center;
     display: flex;
     justify-content: center;
+    border: 3px solid rgba(198, 185, 167, 0.595);
 }
 .logo{
     color: #ffffff;
@@ -53,7 +54,7 @@ header {
     margin-bottom: 1rem;
     padding:  1rem;
     background-color: rgba(236, 223, 223, 0.099);
-    border: 3px solid #021d14;
+    border: 2px solid rgba(198, 185, 167, 0.595);
 }
 
 .category-title {
