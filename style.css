@@ -93,9 +93,11 @@ header {
     height: 300px;
     object-fit: cover;
     border-radius: 4px;
+    
 }
 .movie-poster:hover{
     border: 3px solid whitesmoke;
+    transition: all ease-out 0.5s;
 }
 .movie-info:hover{
     border: 1.5px solid whitesmoke;
@@ -174,12 +176,18 @@ a .rating{
 
 .about {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     color: #efeae4;
     font-style: italic;
     text-decoration: underline;
-    
-    
+}
+
+.websitereview{
+    text-decoration: none;
+    font-size: 16px;
+    color: #efeae4;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 
