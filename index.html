@@ -6,7 +6,7 @@
     <title>Cinephiles Diary</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
     <header class="header">
@@ -27,9 +27,10 @@
             <a href="about.html" class="about">About Us</a>
             
         </div>
-    </header>
 
-    <nav style=" padding: 20px; color: rgb(0, 0, 0); z-index: 1000 ; font-size: large;">
+    </header>
+    
+    <nav style=" padding: 20px; color: rgb(255, 255, 255); z-index: 1000 ; font-size: large;">
         <a href="#anime" style="margin: 0 15px;  text-decoration: none;">Anime</a>
         <a href="#marvel" style="margin: 0 15px;  text-decoration: none;">Marvel</a>
         <a href="#indian" style="margin: 0 15px; text-decoration: none; text-align: left;">Indian</a>
@@ -38,6 +39,17 @@
         <a href="#korean" style="margin: 0 15px; text-decoration: none;">Korean</a>
         
     </nav>
+    <div class="mode">
+        <form>
+            <label style="color: white;">
+                <input type="radio" name="options" value="page1" onchange="location.href='index.html'"> Light Mode
+            </label>
+         
+            <label style="color: white;">
+                <input type="radio" name="options" value="page2" onchange="location.href='index1.html'"> Dark Mode
+            </label>
+        </form>
+    </div>
     <section class="slider">
         <div class="slider-container">
           <img src="images/monster.jpg" alt="Film Poster">
@@ -184,7 +196,7 @@
                 <div class="movie-card">
                     <div class="rating">★ 4.7</div>
                     
-                    <img src="images/3idiots.jpg" alt="3 Idiots" class="movie-poster">
+                    <img src="images/swades.jpeg" alt="3 Idiots" class="movie-poster">
                     
                     <div class="movie-info">
                         <div class="movie-title">3 Idiots</div>
