@@ -168,3 +168,6 @@ iframe:hover {
         transform: translateY(0);
     }
 }
+.navbar a {
+    margin: 0 15px;
+}
