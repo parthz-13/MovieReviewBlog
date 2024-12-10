@@ -269,6 +269,7 @@ nav a{
     padding: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
+    border-radius: 0px;
     
 }
 
@@ -287,4 +288,5 @@ nav a{
     margin-top: 15px;
     font-style: italic;
     text-decoration: underline;
+    
 }
