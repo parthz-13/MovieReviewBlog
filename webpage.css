@@ -50,7 +50,7 @@ nav div a {
 }
 
 nav div a:hover {
-    color: #ffd700; /* Gold on hover */
+    color: #1C1C1C; /* Gold on hover */
     transform: scale(1.1);
 }
 
