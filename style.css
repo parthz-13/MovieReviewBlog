@@ -28,13 +28,13 @@ body {
     align-items: center;
     margin-bottom: 1rem;
     padding:  1rem;
-    background-image: linear-gradient(to right, rgba(39, 36, 36, 0.3),rgba(0, 0, 0, 0.5))
+    background-image: linear-gradient(to right, rgba(130, 120, 120, 0.5),rgba(255, 255, 255, 0.3))
     
 }
 
 .category-title {
     font-size: 2rem;
-    color: #000000;
+    color: #fbfbfb;
     padding: 10px;
     font-weight: 700;
     text-align: center;
@@ -95,7 +95,7 @@ body {
 }
 
 .movie-year {
-    color: black;
+    color: rgb(255, 255, 255);
     ;
     font-size: 0.8rem;
 }
@@ -112,7 +112,7 @@ body {
     
 }
 a .movie-title{
-   color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
 }
 a .rating{
     color: white;
@@ -127,7 +127,7 @@ a .rating{
     justify-content: space-between;
     
     padding: 20px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(39, 36, 36, 0.3));
+    background-image: linear-gradient(to right, rgba(130, 120, 120, 0.5),rgba(255, 255, 255, 0.3));
     margin:0px;
     
 }
@@ -160,7 +160,7 @@ a .rating{
 .about {
     text-decoration: none;
     font-size: 16px;
-    color: #000000;
+    color: #ffffff;
     font-style: italic;
     text-decoration: underline;
 }
@@ -168,7 +168,7 @@ a .rating{
 .websitereview{
     text-decoration: none;
     font-size: 16px;
-    color: #000000;
+    color: #ffffff;
     font-style: italic;
     text-decoration: underline;
 }
@@ -191,7 +191,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('https://images.pexels.com/photos/6634141/pexels-photo-6634141.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load') no-repeat center center/cover;
+    background: url('https://s.tmimgcdn.com/scr/1200x750/414700/abstract-black-texture-wall-black-textured-wall-dark-textured-stone-background_414787-original.jpg') no-repeat center center/cover;
     opacity: 0; 
     z-index: -1; 
     animation: fadeIn 3s ease-in-out forwards; 
@@ -213,7 +213,7 @@ body::before {
 
 
 .logo{
-    color: #000000;
+    color: #ffffff;
 }
 
 .site{
@@ -223,7 +223,7 @@ body::before {
     margin-left: 20px;
 }
  .category-header , .movie-card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
 }
 
 
@@ -249,7 +249,7 @@ header{
 }
 nav{
     border-radius: 0px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(39, 36, 36, 0.3));
+    background-image: linear-gradient(to right, rgba(130, 120, 120, 0.5),rgba(255, 255, 255, 0.3));
     display: flex;
     justify-content: flex-end;
 
@@ -258,7 +258,7 @@ nav a{
     padding: 0 10px;
     font-size: larger;
     border: 2px solid gray;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
     padding: 0px 15px;
     border-radius: 8px;
 }
@@ -295,7 +295,7 @@ nav a{
     }
   }
 .footer {
-    background-image: linear-gradient(to right, rgba(39, 36, 36, 0.3),rgba(0, 0, 0, 0.5));
+    background-image: linear-gradient(to right, rgba(130, 120, 120, 0.5),rgba(255, 255, 255, 0.3));
     
     padding: 20px;
     text-align: center;
@@ -331,4 +331,15 @@ nav a{
     font-style: italic;
     text-decoration: underline;
     
+}
+
+.mode form{
+    padding: 10px 20px;
+    
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.mode form label{
+    padding: 20px;
 }
