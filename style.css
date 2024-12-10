@@ -125,7 +125,7 @@ a .rating{
     display: flex;
     align-items: center;
     justify-content: space-between;
-     align-items: ;
+    
     padding: 20px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(39, 36, 36, 0.3));
     margin:0px;
@@ -192,9 +192,9 @@ body::before {
     width: 100%;
     height: 100%;
     background: url('https://images.pexels.com/photos/6634141/pexels-photo-6634141.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load') no-repeat center center/cover;
-    opacity: 0; /* Initially invisible */
-    z-index: -1; /* Keep it behind all content */
-    animation: fadeIn 3s ease-in-out forwards; /* Fading effect */
+    opacity: 0; 
+    z-index: -1; 
+    animation: fadeIn 3s ease-in-out forwards; 
 }
 
 @keyframes fadeIn {
@@ -261,4 +261,30 @@ nav a{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     padding: 0px 15px;
     border-radius: 8px;
+}
+
+.footer {
+    background-image: linear-gradient(to right, rgba(39, 36, 36, 0.3),rgba(0, 0, 0, 0.5));
+    
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+}
+
+.footer-branding  {
+    
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+
+
+
+.footer-copyright {
+    font-size: 15px;
+    margin-top: 15px;
+    font-style: italic;
+    text-decoration: underline;
 }
