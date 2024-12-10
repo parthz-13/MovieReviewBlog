@@ -273,10 +273,21 @@ nav a{
     
 }
 
+
 .footer-branding  {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 20px;
     font-style: italic;
+}
+
+
+
+.footer-social {
+    text-align: right;
+    font-size: 20px;
+    
 }
 
 
@@ -285,7 +296,7 @@ nav a{
 
 .footer-copyright {
     font-size: 15px;
-    margin-top: 15px;
+
     font-style: italic;
     text-decoration: underline;
     
