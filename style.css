@@ -263,6 +263,38 @@ nav a{
     border-radius: 8px;
 }
 
+.slider {
+    width: 100%;
+    overflow: hidden;
+    
+    border-radius: 0;
+    margin-top: 10px;
+  }
+  
+  .slider-container {
+    display: flex;
+    width: calc(375px * 10); 
+    animation: scroll 20s linear infinite; 
+  }
+  
+  
+  
+  .slider-container img {
+    width: 375px;
+    height: 550px;
+    object-fit: cover;
+    display: block;
+    margin-right: 3px;
+    border-radius: 0px;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-375px * 5)); 
+    }
+  }
 .footer {
     background-image: linear-gradient(to right, rgba(39, 36, 36, 0.3),rgba(0, 0, 0, 0.5));
     
