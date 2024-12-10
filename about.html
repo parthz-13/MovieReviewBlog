@@ -44,23 +44,56 @@
         p{
             font-size: 23px;
         }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            margin: 20px 4px;
+            border: 3px solid #444;
+            background-image: linear-gradient(to right, rgba(60, 44, 44, 0.165), rgb(47, 43, 43));
+            
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        .navbar a {
+            padding: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
     </style>
 </head>
 <body>
     <header>
         About Us
     </header>
+    <nav>
+        <div>
+            <a href="index.html">HOME</a>
+
+        </div>
+        <div class="navbar">
+            <a href="#om">Our Mission</a>
+            <a href="#wo">What We Offer</a>
+            <a href="#wd">Why Choose Cinephiles Diary?</a>
+    
+        </div>
+    </nav>
     <br>
     <hr>
+
+
     <p>Welcome to <span class="titles">Cinephiles Diary</span>, your ultimate destination for honest and engaging movie reviews from around the globe!</p>
     
     <p>We are a passionate group of film enthusiasts dedicated to exploring the world of cinema. From the bustling streets of Bollywood to the bright lights of Hollywood, from the gripping dramas of Korea to the magical realms of anime, and the action-packed adventures of the Marvel universe—we cover it all!</p>
     <hr>
-    <h2>Our Mission</h2>
+    <h2 id="om">Our Mission</h2>
     
     <p>At <span class="titles">Cinephiles Diary</span>, we aim to connect movie lovers through carefully crafted reviews and insights. Whether you're a casual viewer or a hardcore cinephile, our goal is to help you discover films that resonate with you and provide a space to discuss and celebrate the art of storytelling.</p>
     <hr>
-    <h2>What We Offer</h2>
+    <h2 id="wo">What We Offer</h2>
     
     <ul>
         <li><span class="titles">Indian Films:</span> A deep dive into the vibrant and diverse world of Bollywood and regional cinema.</li>
@@ -70,7 +103,7 @@
         <li><span class="titles">Anime:</span> Celebrate the art and emotion of anime, a genre like no other.</li>
     </ul>
     <hr>
-    <h2>Why Choose Cinephiles Diary?</h2>
+    <h2 id="wd">Why Choose Cinephiles Diary?</h2>
     
     <p>Our reviews go beyond the surface, analyzing storytelling, direction, acting, cinematography, and cultural impact. We value your love for movies and strive to create a platform where your voice matters.</p>
     
