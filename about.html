@@ -4,34 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Cinephiles Diary</title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
-            background-color: hwb(0 1% 93% / 0.14);
-            border: 7px solid gray;
-            margin: 0 auto;
+            background-color: #1c1f2b; /* Dark navy background */
+            margin: 0;
             padding: 20px;
             line-height: 1.6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #d3d3d3; /* Light grey text */
         }
 
         header {
             text-align: center;
-            color: rgb(31, 24, 24);
+            color: #ffffff;
             font-size: 50px;
-            padding-bottom: 10px;
-            font-weight: bolder;
-            background-image: linear-gradient(to right, rgb(47, 43, 43), rgba(41, 2, 2, 0.165));
-            
+            padding: 20px 0;
+            font-weight: bold;
+            background: linear-gradient(90deg, #3c3f51, #1c1f2b); /* Gradient of grey and dark navy */
+            animation: headerPulse 2s infinite alternate;
+        }
+
+        @keyframes headerPulse {
+            0% {
+                text-shadow: 0 0 10px #3c3f51, 0 0 20px #1c1f2b;
+            }
+            100% {
+                text-shadow: 0 0 20px #3c3f51, 0 0 40px #1c1f2b;
+            }
         }
 
         h2 {
-            color: #444;
+            color: #8f93a6; /* Soft grey for headings */
             margin-top: 20px;
         }
 
         .titles {
             font-weight: bold;
-            color: rgb(116, 21, 21);
+            color: #4ea5d9; /* Accent blue */
         }
 
         ul {
@@ -41,41 +50,69 @@
         li {
             margin-bottom: 10px;
             font-size: 20px;
+            color: #d3d3d3;
+            transition: color 0.3s;
         }
-        p{
+
+        li:hover {
+            color: #4ea5d9;
+        }
+
+        p {
             font-size: 23px;
         }
+
         nav {
             display: flex;
             justify-content: space-between;
             padding: 15px;
-            margin: 20px 4px;
-            border: 3px solid #444;
-            background-image: linear-gradient(to right, rgba(60, 44, 44, 0.165), rgb(47, 43, 43));
-            
-            font-size: 20px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+            margin: 20px 0;
+            border: 2px solid #3c3f51;
+            background: linear-gradient(90deg, #1c1f2b, #3c3f51);
+            border-radius: 8px;
         }
+
         .navbar a {
             padding: 20px;
-        }
-        a{
             text-decoration: none;
-            color: black;
+            color: white;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #4ea5d9;
+            transform: scale(1.1);
         }
 
         footer {
-            background-color: #333;
-            color: #fff;
+            background-color: #3c3f51;
+            color: #ffffff;
             text-align: center;
             padding: 10px;
             margin-top: 40px;
             font-size: 16px;
+            animation: footerFadeIn 2s ease-in-out;
         }
 
-        
+        @keyframes footerFadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
 
+        footer a {
+            color: #4ea5d9;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #d3d3d3;
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -120,11 +157,9 @@
     <p>Join us as we embark on this journey of cinematic exploration. Together, let's share our love for movies and keep the magic of storytelling alive.</p>
     <hr>
 
-
+    <!-- Footer Section -->
     <footer>
-        <p> Made With <i class="fa-solid fa-heart"></i></p>
-        <p><strong>Aaditya Mohan Samadhiya , Parth Kumar Singh , Veer Shah</strong></p>
-        
+        <p>Website worked by :  <strong>Aaditya Mohan Samadhiya, Parth Kumar Singh, Veer Shah</strong></p>
     </footer>
 </body>
 </html>
